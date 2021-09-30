@@ -55,5 +55,5 @@ let curso = {
 
 curso.adicionarEstudante(new aluno('Carina', 1, [7.5, 5.8, 8,]));
 console.log(curso.listaEstudantes);
-
 console.log(curso.aprovacaoEstudantes());
+/* Veja modulo estudante*/

@@ -10,7 +10,7 @@ function Aluno (nomealuno, faltasaluno, notasalunos) {
         this.calcularMedia = () =>
         this.notas.reduce((acumulador, elemento) => acumulador + elemento) /
          this.notas.length;
-        this.adicionaFaltas = () => this.faltas++;
+        this.adicionaFaltas = () => this.faltas += 1;
 }    
     /* Passo 2
     
